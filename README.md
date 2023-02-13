@@ -1,6 +1,6 @@
 # VACCITRACKER 
 
-> Vaccitracker is an application that helps users track their children immunization schedule with ease, and get email reminders before the date. This repository hold the API for the vaccitracker project
+> Vaccitracker is an application that helps users track their children immunization schedule with ease, and get email reminders before the date. 
 
 ![child](https://user-images.githubusercontent.com/73438276/218477594-50b51c86-46ef-4548-bf33-4f1a617b7b3f.png)
 
