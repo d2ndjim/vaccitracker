@@ -66,11 +66,12 @@ All source code files are licensed under the permissive zlib license
 
 👤 **Adedamola Olusakin - Project Manager**
 
-- GitHub: [Damola](https://github.com/d2ndjim)
+- GitHub: [Damola](https://github.com/Dami-Olus)
 - LinkedIn: [Adedamola Olusakin](https://www.linkedin.com/in/adedamola-olusakin/)
 
 👤 ** Innocent Bayila Solomon - Product Designer**
 
+- GitHub: [Innocent](https://github.com/Bayilasolomon)
 - LinkedIn: [Innocent Bayila Solomon](https://www.linkedin.com/in/bayilasolomon/)
 
 👤 **Lekan Jimoh - Backend Developer**
