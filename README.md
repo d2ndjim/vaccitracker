@@ -62,14 +62,22 @@ All source code files are licensed under the permissive zlib license
 
 # TEAM VACCITRACKER
 
-👤 **Lekan Jimoh**
+👤 **Adedamola Olusakin - Project Manager**
 
-- GitHub: [d2ndjim]https://github.com/d2ndjim)
+- GitHub: [Damola](https://github.com/d2ndjim)
+- LinkedIn: [Adedamola Olusakin](https://www.linkedin.com/in/adedamola-olusakin/)
+
+👤 ** Innocent Bayila Solomon - Product Designer**
+
+- LinkedIn: [Innocent Bayila Solomon](https://www.linkedin.com/in/bayilasolomon/)
+
+👤 **Lekan Jimoh - Backend Developer**
+
+- GitHub: [d2ndjim](https://github.com/d2ndjim)
 - Twitter: [d2ndjim_](https://twitter.com/d2ndjim_)
-- LinkedIn: [Lekan](https://linkedin.com/in/lekanj)
+- LinkedIn: [Lekan Jimoh](https://linkedin.com/in/lekanj)
 
-👤 **Rahman Olagunju**
+👤 **Rahman Olagunju Frontend Developer**
 
-- GitHub: [BodeRahman]https://github.com/bodeRahman)
-- Twitter: [d2ndjim_](https://twitter.com/d2ndjim_)
-- LinkedIn: [Lekan](https://linkedin.com/in/lekanj)
+- GitHub: [BodeRahman](https://github.com/bodeRahman)
+- LinkedIn: [Abdulrahman Olagunju](https://www.linkedin.com/in/olagunju-abdulrahman1/)
