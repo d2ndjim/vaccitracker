@@ -1,0 +1,77 @@
+.gilroy-light {
+    font-family: "Gilroy-Light";
+}
+
+.gilroy-extrabold {
+    font-family: "Gilroy-Extrabold";
+}
+
+.home-place-color {
+    color: #F76600;
+}
+
+.home-btn {
+    border: 1px solid white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.child-card {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.home-add-btn {
+    border: 1px solid #F76600;
+    color: #F76600;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.home-add-btn:hover {
+    background-color: #F76600;
+    color: white;
+}
+
+.loadingSpinnerContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 5000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.loadingSpinner {
+    width: 64px;
+    height: 64px;
+    border: 8px solid;
+    border-color: #F76600 transparent #F76600 transparent;
+    border-radius: 50%;
+    animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+   

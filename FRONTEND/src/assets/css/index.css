@@ -1,0 +1,456 @@
+html,
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "ExtraBold";
+    src: local("Gilroy-ExtraBold"), url("../fonts/Gilroy/Gilroy-ExtraBold.otf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Light";
+    src: local("Gilroy-Light"), url("../fonts/Gilroy/Gilroy-Light.otf") format("truetype");
+}
+
+
+/* Home/Landing Page */
+
+.h-font {
+    font-size: 48px;
+    font-weight: 600;
+    color: #032F5B;
+}
+
+.wiki-card {
+    display: flex;
+    align-items: center;
+}
+
+.wiki-card p {
+    font-size: 15px;
+    color: #010E1B;
+}
+
+.rounded {
+    width: 100px;
+    height: 150px;
+}
+
+.h-font-2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #032F5B;
+}
+
+.sub-h-font {
+    font-size: 20px;
+    font-weight: 400;
+    color: #010E1B;
+}
+
+.orange {
+    background: #F76600;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.album {
+    background: #032F5B;
+}
+
+.inp {
+    background: #ACC1D8;
+}
+
+.inp::placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.bro {
+    background: #CDDAE7;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+
+.album img {
+    width: 424px;
+    height: 382px;
+}
+
+.articles {
+    background: #FDE0CC;
+    border-radius: 20px;
+}
+
+.reminders {
+    background: #CDDAE7;
+    border-radius: 20px;
+}
+
+.management {
+    background: #FDE0CC;
+    border-radius: 20px;
+}
+
+.title {
+    font-weight: 500;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.desc {
+    font-weight: 200;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer {
+    background: #032F5B;
+}
+
+.foot-item {
+    color: #FFFFFF;
+}
+
+/* tempHome */
+.title-head {
+    color: #032F5B;
+    font-size: 32px;
+}
+
+.see-all {
+    color: #F76600;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.see-all:hover {
+    text-decoration: none !important;
+    color: #Ce5500;
+}
+
+.see-all:active {
+    text-decoration: none !important;
+    color: #f8802B;
+}
+
+#card-deet {
+    background: #FDE0CC;
+    box-shadow: 0px 0px 11.3569px rgba(0, 0, 0, 0.2);
+    border-radius: 9.08552px;
+}
+
+.transi {
+    transition: transform 0.3s ease-in-out;
+}
+
+.transi:hover {
+    transform: scale(1.1);
+}
+
+.btn-plain {
+    background-color: white;
+    color: #F76600;
+    border-color: #F76600;
+    margin-right: 8px;
+    height: 40px;
+    border-radius: 8px;
+    Padding: 6px, 20px, 6px, 20px;
+}
+
+.btn-plain:link,
+.btn-plain:focus {
+    text-decoration: none !important;
+    background-color: #FDE0CC;
+    color: white;
+}
+
+.btn-plain:hover {
+    text-decoration: none !important;
+    background-color: #FDE0CC;
+    color: white;
+}
+
+.btn-plain:active {
+    text-decoration: none !important;
+    background-color: #FDE0CC;
+    color: white;
+}
+
+.float {
+    float: right;
+}
+
+.child-details {
+    font-size: 22px;
+}
+
+.set-rem {
+    background-color: #F76600;
+    border: 1px solid #F76600;
+    padding: 12px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    width: 15rem;
+    margin: 30px 0px 10px 0px;
+    color: white;
+    border-radius: 10px;
+}
+
+.set-rem:hover {
+    background-color: #Ce5500;
+    border: 1px solid #Ce5500;
+    color: white;
+}
+
+.btn-flat {
+    background-color: #F76600;
+    text-decoration: none !important;
+    color: white;
+    height: 40px;
+    border-radius: 8px;
+    Padding: 6px, 20px, 6px, 20px;
+    border-color: #F76600;
+}
+
+.btn-flat:link,
+.btn-flat:focus {
+    text-decoration: none !important;
+    background-color: #f8802B;
+    color: white;
+}
+
+.btn-flat:hover {
+    background-color: #Ce5500;
+    text-decoration: none !important;
+    color: white;
+}
+
+.btn-flat:active {
+    text-decoration: none !important;
+    background-color: #f8802B;
+    color: white;
+}
+
+.reminder-announce {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*Signup page*/
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+.sign-in {
+    color: #F76600;
+}
+
+.head-title {
+    font-weight: 500;
+    font-size: 40px;
+    color: #3A3A3A
+}
+
+/*Login page*/
+.login {
+    color: #000000;
+}
+
+/* Sidebar navigation */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 280px;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+@media (max-width: 767.98px) {
+    .sidebar {
+        top: 5rem;
+    }
+}
+
+.sidebar-sticky {
+    height: calc(100vh - 48px);
+    overflow-x: hidden;
+    overflow-y: auto;
+   
+}
+
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+}
+
+.sidebar .nav-link .feather {
+    margin-right: 4px;
+    color: #727272;
+}
+
+.nav-link.active {
+    color: #f8802B;
+}
+
+.sidebar-heading {
+    font-size: .75rem;
+}
+
+/* Child page */
+.name-font {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.add-btn {
+    padding: 20px;
+    gap: 10px;
+    background: #043A72;
+    border-radius: 8px;
+}
+
+.add-btn:hover,
+.add-btn:visited,
+.add-btn:focus {
+    text-decoration: none !important;
+    background-color: #427cbb;
+    color: white;
+}
+
+/* ChildrenVaccination */
+.custom-select {
+    background-image: url("/src/assets/img/filter.svg");
+    color: white;
+}
+
+#accordionExample .custom-accordion {
+    margin: 10px;
+    border-top: 1px solid rgb(223, 217, 217);
+    border-radius: 4px;
+}
+
+.form-check {
+    border-radius: 8px;
+}
+
+input[type="checkbox"].form-check-input:checked {
+    background-color: #1DB954;
+    border-color: #1DB954;
+}
+
+.back-btn {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #F76600;
+    margin: 0 50px;
+}
+
+.back-btn:hover {
+    text-decoration: none;
+    color: #Ce5500;
+}
+
+/* Reminder */
+.reminder-head {
+    color: #032F5B;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.divider {
+    border: 1px solid #3A3A3A;
+    width: 465.5px;
+}
+
+.bell {
+    stroke: #F76600;
+}
+
+.form-control option {
+    background: #CDDAE7;
+}
+
+.set-rem-mobile {
+    margin-bottom: 40px;
+}
+
+.set-rem-mobile p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #032F5B;
+}
+
+
+@media screen and (max-width: 768px) {
+    .title-head {
+        font-size: 25px;
+    }
+
+    .reminder-form {
+        margin-right: 30px;
+    }
+
+    .reminder-head {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .wiki-card h5 {
+        font-size: 20px;
+    }
+
+    .wiki-card p {
+        font-size: 12px;
+    }
+
+    .set-rem-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .set-rem-mobile p {
+        font-size: 16px;
+        font-weight: 500;
+        color: #032F5B;
+        text-align: left;
+    }
+
+    .see-all {
+        margin-top: 5px;
+        font-size: larger;
+    }
+
+    .vaccine-label {
+        font-size: 13px;
+    }
+
+    .back-btn {
+        margin: 0 10px;
+    }
+
+    .wrapper {
+        margin: 0 10px;
+    }
+}
+    
