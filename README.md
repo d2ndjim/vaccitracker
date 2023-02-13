@@ -16,16 +16,25 @@
 - As a parent I would like to have a general idea of what each immunization does and possible side effects, so if they do happen I will know what to do and expect.
 - As a parent to more than one children I want to be able to keep track of all of my children’s immunization appointments without mixing them up
 
+### Solution
 
+- A web app with real time email and calendar notifications and reminders  that informs parents in advance of appointments. The parent will be able to create a family profile and also add their significant partner as well as other guardians as Co-contributors with different roles and permissions. They can add multiple children profiles including the name of the child, a profile pic, date of birth, sex etc. They will also be able to fill in general data like their country of residence and address, which would inform the vaccination schedules as well as provide them with a list of recommended health centers in the vicinity. The solution should also have a library of immunisations in easy to understand language with the basic information a parent should have.
+## Immunisations are region specific and due to differences between regions, the first version of the solution will be focusing on Nigeria and other African countries with similar schedules. 
 
+# Built With
 
-## Built With
-
+### BACKEND
 - Ruby on Rails
 - PostgreSQL
 - Rspec
 - JWT and Bcrypt for authentication
 - Rubocop
+
+### FRONTEND
+- React JS
+- Redux toolkit
+- Bootstrap
+- Eslint
 
 To get a local copy up and running follow these simple example steps.
 
@@ -37,49 +46,30 @@ The basic requirements for building the executable are:
 - Rails 7.0.4
 - VSCode or any other equivalent code editor
 - Postgres
+- node
 
 # Getting Started
 
 #### Cloning the project
 
 ```
-git clone  <https://github.com/d2ndjim/vacci-test.git>
-cd vacci-test
-```
-
-## Getting packages
-
-```
-bundle install
-```
-
-##### For database setup
-
-```
-go to config/database.yml
-username: <Your postgres username>
-password: <Your postgres username>
-```
-
-## To run project
-
-```
-rails db:create
-rails db:migrate
-rails server
-```
-
-##### To run tests
-```
-rspec spec
+git clone  <https://github.com/d2ndjim/vaccitracker.git>
+cd vaccitracker
 ```
 
 All source code files are licensed under the permissive zlib license
 (http://opensource.org/licenses/Zlib) unless marked differently in a particular folder/file.
 
-## Author
+# TEAM VACCITRACKER
+
 👤 **Lekan Jimoh**
 
 - GitHub: [d2ndjim]https://github.com/d2ndjim)
+- Twitter: [d2ndjim_](https://twitter.com/d2ndjim_)
+- LinkedIn: [Lekan](https://linkedin.com/in/lekanj)
+
+👤 **Rahman Olagunju**
+
+- GitHub: [BodeRahman]https://github.com/bodeRahman)
 - Twitter: [d2ndjim_](https://twitter.com/d2ndjim_)
 - LinkedIn: [Lekan](https://linkedin.com/in/lekanj)
